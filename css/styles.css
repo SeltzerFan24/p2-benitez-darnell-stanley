@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1d3557;
+  height: 50px;
+}
+
+header img {
+  width: 130px;
+  padding: 5px;
+}
+
+header ul {
+  width: 40%;
+  position: absolute;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 13.5px 50px;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  color: #f1faee;
+  text-decoration: none;
+  font-family: 'Sarpanch', sans-serif;
+  font-weight: 800;
+}
+
+h1 {
+  font-family: 'Sarpanch', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #1d3557;
+  font-size: 5em;
+  text-align: center;
+  max-width: 1200px;
+}
+
+.hero {
+  height: 95vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-hero {
+  background: url('../img/our-story.jpg') center no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-family: 'Sarpanch', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #f1faee;
+  font-size: 3em;
+}
+
+.mission {
+  background-color: #1d3557;
+  padding: 150px;
+  text-align: left;
+}
+
+.mission-cta {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-right: 300px;
+}
+
+.vision {
+  background-color: #348EB8;
+  padding: 150px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.vision-cta {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 300px;
+}
+
+.mission p, .vision p {
+  font-family: 'Raleway', sans-serif;
+  color: #f1faee;
+  font-size: 1.5em;
+}
+
+.story {
+  max-width: 1200px;
+  margin: 150px auto;
+}
+
+.story h3 {
+  color: #1d3557;
+  font-family: 'Sarpanch', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.story p {
+  font-family: 'Raleway', sans-serif;
+  color: #1d3557;
+  font-size: 1.25em;
+  margin: 50px 0;
+}
+
+.faq h4 {
+  color: #1d3557;
+  font-family: 'Sarpanch', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+
+
+
+
+footer {
+  background-color: #1d3557;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+footer img {
+  max-width: 200px;
+  margin: 25px;
+}
+
+footer p {
+  color: #A8DADC;
+  font-family: 'Sarpanch', sans-serif;
+  font-weight: 900;
+}
