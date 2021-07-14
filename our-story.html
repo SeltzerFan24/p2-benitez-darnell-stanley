@@ -15,14 +15,17 @@
   </head>
   <body>
     <header>
-      <img src="img/foa-logo-lg.png" alt="Florida Ocean Alliance" title="Florida Ocean Alliance">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="our-story.html">Our Story</a></li>
-        <li><a href="#">Membership</a></li>
-        <li><a href="#">Out Reach</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      <nav>
+        <img src="img/foa-logo-lg.png" alt="Florida Ocean Alliance" title="Florida Ocean Alliance">
+        <ul class="desktop-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="our-story.html">Our Story</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">Out Reach</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" id="cta-bttn">Join Now</a>
+      </nav>
     </header>
     <section class="hero story-hero">
       <h1>Our stake in Florida's Coastal Future.</h1>
@@ -71,7 +74,27 @@
       <section class="faq">
         <h4>Frequently Asked Questions</h4>
 
-        <div>
+        <div class="faq-accordion">
+          <button class="accordion-title">What does the Florida Ocean Alliance Do?<img src="img/arrow-down.png" alt="Arrow" title="Arrow"></button>
+          <div class="accordion-answer">
+            <p>Serve as a clearinghouse for information on key ocean and coastal issues facing the state in both the public and private
+            sectors.</p>
+          </div>
+          
+          <button class="accordion-title">How does the Florida Ocean Alliance Do It?<img src="img/arrow-down.png" alt="Arrow" title="Arrow"></button>
+          <div class="accordion-answer">
+            <p>Lorem ipsum...</p>
+          </div>
+          
+          <button class="accordion-title">Where are you located in Florida?<img src="img/arrow-down.png" alt="Arrow" title="Arrow"></button>
+          <div class="accordion-answer">
+            <p>Lorem ipsum...</p>
+          </div>
+
+          <button class="accordion-title">How do I contact the Florida Ocean Alliance?<img src="img/arrow-down.png" alt="Arrow" title="Arrow"></button>
+          <div class="accordion-answer">
+            <p>Lorem ipsum...</p>
+          </div>
         </div>
 
 
@@ -84,6 +107,6 @@
     </footer>
     
     
-    <script src="accordion.js"></script>
+    <script src="js/accordion.js"></script>
   </body>
 </html>
