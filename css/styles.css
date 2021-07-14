@@ -252,6 +252,15 @@ footer p {
     margin-bottom: 175px;
   }
 }
+
+@media (min-width: 985px) {
+  h1 {
+    max-width: 1000px;
+  }
+
+}
+
+
 /************************** STYLES FOR OUR-STORY.HTML **************************/
 
 
