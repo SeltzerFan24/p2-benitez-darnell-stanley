@@ -127,8 +127,28 @@ h2 {
   font-weight: 800;
 }
 
+/*Mobile Index Styles */
 
+.home_body header ul{
+  display: none;
+}
 
+.home_hero {
+ background: #A8DADC, 80%;
+}
+
+.home_hero_image {
+  background: url('../img/index_background.png') center no-repeat;
+  background-size: cover;
+}
+
+.home_hero_image h1 {
+  font-size: 2em;
+}
+
+.update_one img, .update_two img, .update_three img {
+  max-width: 90%;
+}
 
 
 footer {
