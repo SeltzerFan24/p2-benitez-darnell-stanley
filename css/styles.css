@@ -8,6 +8,11 @@ header {
   height: 50px;
 }
 
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header img {
   width: 130px;
   padding: 5px;
@@ -33,12 +38,17 @@ header ul li a {
   font-weight: 800;
 }
 
+a#cta-bttn {
+    background: #f1faee;
+    color: #1d3557;
+}
+
 h1 {
   font-family: 'Sarpanch', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   color: #1d3557;
-  font-size: 5em;
+  font-size: 1.75em;
   text-align: center;
   max-width: 1200px;
 }
@@ -61,24 +71,24 @@ h2 {
   font-weight: 800;
   text-transform: uppercase;
   color: #f1faee;
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 .mission {
   background-color: #1d3557;
-  padding: 150px;
+  padding: 15% 5%;
   text-align: left;
 }
 
 .mission-cta {
   max-width: 900px;
   margin: 0 auto;
-  padding-right: 300px;
+  padding-right: 10%;
 }
 
 .vision {
   background-color: #348EB8;
-  padding: 150px;
+  padding: 15% 5%;
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -89,18 +99,19 @@ h2 {
 .vision-cta {
   max-width: 900px;
   margin: 0 auto;
-  padding-left: 300px;
+  padding-left: 10%;
 }
 
 .mission p, .vision p {
   font-family: 'Raleway', sans-serif;
   color: #f1faee;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .story {
   max-width: 1200px;
-  margin: 150px auto;
+  margin: 0 auto;
+  padding: 15% 5%;
 }
 
 .story h3 {
@@ -109,13 +120,15 @@ h2 {
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 800;
+  text-align: center;
 }
 
 .story p {
   font-family: 'Raleway', sans-serif;
   color: #1d3557;
-  font-size: 1.25em;
-  margin: 50px 0;
+  font-size: 1em;
+  margin: 25px 0;
+  text-align: center;
 }
 
 .faq h4 {
@@ -123,13 +136,47 @@ h2 {
   font-family: 'Sarpanch', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.25em;
   font-weight: 800;
 }
 
+.faq-accordion {
+  margin: 5%;
+  margin-bottom: 50px;
+}
 
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-title {
+    background-color: #348EB8;
+    color: #F1FAEE;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Sarpanch';
+    font-weight: 800;
+    font-size: .7em;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+    margin: 2px 0;
+}
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion-title:hover {
+  background-color: #1d3557;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordion-answer {
+  padding: 25px 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  font-family: 'Raleway';
+  color: #1d3557;
+}
 
 footer {
   background-color: #1d3557;
@@ -149,4 +196,6 @@ footer p {
   color: #A8DADC;
   font-family: 'Sarpanch', sans-serif;
   font-weight: 900;
+  font-size: .75em;
+  text-align: center;
 }
