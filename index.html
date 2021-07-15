@@ -18,69 +18,98 @@
 
 <body class="home_body">
 <header>
-    <img src="img/foa-logo-lg.png" alt="Florida Ocean Alliance" title="Florida Ocean Alliance">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="our-story.html">Our Story</a></li>
-        <li><a href="#">Membership</a></li>
-        <li><a href="#">Outreach</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
+    <nav>
+        <img src="img/foa-logo-lg.png" alt="Florida Ocean Alliance" title="Florida Ocean Alliance">
+        <ul class="desktop-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="our-story.html">Our Story</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Out Reach</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" id="cta-bttn">Join Now</a>
+    </nav>
 </header>
 
 <section class="home_hero">
     <div class="home_hero_image">
-        <h1 class="home_h1">Supporting Florida's Coastal Future</h1>
+        <h1 class="home_h1">Supporting Florida's Coastal Future.</h1>
         <p>Florida Ocean Alliance is working to protect and enhance Florida’s coastal
         and resources for continued social and economic benefits.</p>
-        <a href="#"><div class="home_button">JOIN NOW</div></a>
+        <div class="home_button_container">
+            <a class="join_link" href="#"><div class="home_button">JOIN NOW</div></a>
+        </div>
     </div>
 </section>
 
 <main>
     <section class="global_leader">
-        <h2>A national and global leader...</h2>
-        <p>in ocean and coastal research, conservation,
-        education, and responsible economic
-        development.</p>
-        <img src="img\research_logo.png" alt="off-white logo of computer and magnifying glass" />
+        <div class="global-container">
+            <div class="global_text_container">
+                <h2>A national and global leader...</h2>
+                <p>in ocean and coastal research, conservation,
+                education, and responsible economic
+                development.</p>
+            </div>
+            <img src="img\research_logo.png" alt="off-white logo of computer and magnifying glass" />
+        </div>
     </section>
 
-    <article>
+    <article class="home_article">
         <h3>Our Latest Updates</h3>
 
         <section class="update_one">
-            <img src="img\index_waves.png" alt="waves in the ocean during sunset" />
-            <h4>FLORIDA’S OCEANS & COASTS</h4>
-            <p>Florida, as well as the nation, is looking for a future with low
-            unemployment that is high in opportunity and that comes with
-            a stable and growing economy. The oceans, coasts, and a
-            wide variety of related industries play a critical role in this
-            vision of Florida’s future.</p>
+            <div class="update_one_container">
+                <img src="img\index_waves.png" alt="waves in the ocean during sunset" />
+                <div class="update_one_text">
+                    <h4>FLORIDA’S OCEANS & COASTS 2021</h4>
+                    <p>Florida, as well as the nation, is looking for a future with low
+                    unemployment that is high in opportunity and that comes with
+                    a stable and growing economy. The oceans, coasts, and a
+                    wide variety of related industries play a critical role in this
+                    vision of Florida’s future.</p>
+                </div>
+            </div>
         </section>
 
         <section class="update_two">
-            <img src="img\index_seaturtle.png" alt="seaturtle swimming under water" />
-            <h4>HEALTHY OCEANS GENERATE JOBS</h4>
-            <p>More than 228,000 jobs in Florida are directly created by
-            activities that use ocean resources. When indirect effects are
-            taken into account, the number of jobs supported by ocean
-            resources exceeds 440,000.</p>
+            <div class="update_two_container">
+                <img src="img\index_seaturtle.png" alt="seaturtle swimming under water" />
+                <div class="update_two_text">
+                    <h4>HEALTHY OCEANS GENERATE JOBS</h4>
+                    <p>More than 228,000 jobs in Florida are directly created by
+                    activities that use ocean resources. When indirect effects are
+                    taken into account, the number of jobs supported by ocean
+                    resources exceeds 440,000.</p>
+                </div>
+            </div>
         </section>
 
         <section class="update_three">
-            <img src="img\index_waves.png" alt="waves in the ocean during sunset" />
-            <h4>PROTECTING COASTAL RESOURCES</h4>
-            <p>Florida Ocean Alliance is working to protect and enhance
-            Florida’s coastal and resources for continued social and
-            economic benefits.</p>
+            <div class="update_three_container">
+                <img src="img\index_waves.png" alt="waves in the ocean during sunset" />
+                <div class="update_two_text">
+                    <h4>PROTECTING COASTAL RESOURCES</h4>
+                    <p>Florida Ocean Alliance is working to protect and enhance
+                    Florida’s coastal and resources for continued social and
+                    economic benefits.</p>
+                </div>
+            </div>
         </section>
     </article>
 
     <section class="api_section">
-        <h3>FLORIDA COAST WATCH</h3>
-        <div class="api_one"></div>
-        <div class="api_two"></div>
+        <h3 class="coast_watch">FLORIDA COAST WATCH</h3>
+        <div class="webcam_flexbox">
+            <div class="webcam_one_container">
+                <div class="api_one"></div>
+                <h3 class="address">Address</h3>
+            </div>
+            <div class="webcam_two_container">
+                <div class="api_two"></div>
+                <h3 class="address">Address</h3>
+            </div>
+        </div>
     </section>
 
     <footer>
