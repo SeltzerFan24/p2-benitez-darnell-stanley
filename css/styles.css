@@ -150,25 +150,147 @@ footer p {
 
 /*Mobile Index Styles */
 
-.home_body header ul{
+/* .home_body header ul{
   display: none;
-}
+} */
 
-.home_hero {
+/* .home_hero {
  background: #A8DADC, 80%;
+} */
+
+.home_body p {
+  font-family: 'Raleway', sans-serif;
 }
 
 .home_hero_image {
   background: url('../img/index_background.png') center no-repeat;
   background-size: cover;
+  height: 572px;
+  text-align: center;
 }
 
 .home_hero_image h1 {
   font-size: 2em;
+  padding: 200px 0 19px;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.home_h1 {
+  margin: 0 auto;
+}
+.home_hero_image p {
+  font-size: 13px;
+  color: #1D3557;
+}
+
+.join_link {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Sarpanch', sans-serif;
+  line-height: 30px;
+}
+
+.home_button {
+  background: #348EB8;
+  border-radius: 100px;
+  width: 100px;
+  height:30px;
+  margin: 44px auto;
+}
+
+.global_leader{
+  background: #348EB8;
+  text-align: center;
+}
+
+.global_leader h2 {
+  color: #F1FAEE;
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 34px;
+  padding: 60px 0 15px;
+}
+
+.global_leader p {
+  color: #F1FAEE;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+.global_leader img {
+  max-width: 40%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.home_article {
+  background-color: white;
+  text-align: center;
+  color: #1d3557;
+}
+
+.home_article h3, .home_article h4 {
+  color: #348EB8;
+  font-size: 24px;
+  padding-top: 50px;
+  font-family: 'Sarpanch', sans-serif;
+
+}
+
+.home_article h4 {
+  color:#1d3557;
+  padding: 20px 0 20px;
+}
+
+.home_article p {
+  margin: 0 5% 35px;
+  text-align: left;
 }
 
 .update_one img, .update_two img, .update_three img {
   max-width: 90%;
+}
+
+.update_one img {
+  padding: 40px 0 0;
+}
+
+.api_section {
+  background-color: #A8DADC;
+  color: #1d3557;
+  font-family: 'Sarpanch', sans-serif;
+  height: 700px;
+  text-align: center;
+}
+
+.api_section h3 {
+  font-size: 24px;
+}
+
+.address {
+  padding: 20px 0 60px;
+}
+
+.coast_watch {
+  padding: 55px 0 40px;
+}
+
+.api_one {
+  width: 280px;
+  height: 150px;
+  background-color: grey;
+  margin: 0 auto;
+}
+
+.api_two {
+  width: 280px;
+  height: 150px;
+  background-color: grey;
+  margin: 0 auto;
+}
+
+/* End Home Mobile Styles */
 
 .faq-accordion {
   margin: 5% auto;
