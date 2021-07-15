@@ -147,6 +147,48 @@ footer p {
   font-weight: 800;
 }
 
+.faq-accordion {
+  margin: 5% auto;
+  margin-bottom: 50px;
+  max-width: 1000px;
+}
+
+.faq {
+  margin-bottom: 50px;
+}
+
+.accordion-title {
+    background-color: #348EB8;
+    color: #F1FAEE;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Sarpanch';
+    font-weight: 800;
+    font-size: .7em;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+    margin: 2px 0;
+}
+
+.accordion-title img {
+  display: none;
+}
+
+.active, .accordion-title:hover {
+  background-color: #1d3557;
+}
+
+.accordion-answer {
+  padding: 25px 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  font-family: 'Raleway';
+  color: #1d3557;
+}
 
 /*Mobile Index Styles */
 
@@ -291,49 +333,6 @@ footer p {
 }
 
 /* End Home Mobile Styles */
-
-.faq-accordion {
-  margin: 5% auto;
-  margin-bottom: 50px;
-  max-width: 1000px;
-}
-
-.faq {
-  margin-bottom: 50px;
-}
-
-.accordion-title {
-    background-color: #348EB8;
-    color: #F1FAEE;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    text-align: left;
-    font-family: 'Sarpanch';
-    font-weight: 800;
-    font-size: .7em;
-    border: none;
-    outline: none;
-    transition: .5s ease;
-    margin: 2px 0;
-}
-
-.accordion-title img {
-  display: none;
-}
-
-.active, .accordion-title:hover {
-  background-color: #1d3557;
-}
-
-.accordion-answer {
-  padding: 25px 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  font-family: 'Raleway';
-  color: #1d3557;
-}
 
 @media (min-width: 510px) {
   h1 {
