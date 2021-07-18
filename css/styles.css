@@ -200,14 +200,6 @@ footer p {
 
 /*Mobile Index Styles */
 
-/* .home_body header ul{
-  display: none;
-} */
-
-/* .home_hero {
- background: #A8DADC, 80%;
-} */
-
 .home_body p {
   font-family: 'Raleway', sans-serif;
 }
@@ -215,8 +207,12 @@ footer p {
 .home_hero_image {
   background: url('../img/index_background.png') center no-repeat;
   background-size: cover;
-  height: 572px;
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .home_hero_image h1 {
@@ -370,6 +366,7 @@ footer p {
   }
 
   /* Index Styles */
+
   .home_hero_image h1 {
     font-size: 2em;
     line-height: normal;
@@ -489,10 +486,6 @@ footer p {
 
   .home_hero_image h1 {
     font-size: 3.5em;
-  }
-
-  .home_hero_image {
-    height: 850px;
   }
 
   .global_container {
