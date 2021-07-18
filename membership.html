@@ -23,7 +23,7 @@
         </div>
 
         <ul class="mobile-nav">
-          <li><a href="#" class="mobile-items">Home</a></li>
+          <li><a href="index.html" class="mobile-items">Home</a></li>
           <li><a href="our-story.html" class="mobile-items">Our Story</a></li>
           <li><a href="membership.html" class="mobile-items">Membership</a></li>
           <li><a href="#" class="mobile-items">Out Reach</a></li>
@@ -33,7 +33,7 @@
         
         
         <ul class="desktop-nav">
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="our-story.html">Our Story</a></li>
           <li><a href="membership.html">Membership</a></li>
           <li><a href="#">Out Reach</a></li>
@@ -45,6 +45,47 @@
     <section class="hero member-hero">
       <h1>Join now to support Florida's future.</h1>
     </section>
+
+    <div id="donations-modal" class="donations-popup">
+      <div class="donations">
+        <div class="donations-header">
+          <span class="close-donations">&times;</span>
+          <h2>Florida Ocean Alliance</h2>
+
+        </div>
+        <div>
+          <div id="donations-content">
+            <h3>Help us save our oceans.</h3>
+            <form>
+              <div class="form-content">
+                <label for="first-name">First Name</label>
+                <input type="text">
+              </div>
+
+              <div class="form-content">
+                <label for="last-name">Last Name</label>
+                <input type="text">
+              </div>
+
+              <div class="form-content">
+                <label for="donation-amount">Donation Amount</label>
+                <input type="number">
+              </div>
+
+              <div class="submit-button">
+              <button type="submit">Donate</button>
+              </div>
+
+            </form>
+          </div>
+
+          <div class="donations-footer">
+            <p>Florida Ocean Alliance &copy; 2021<p>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <main>
       <section class="member">
@@ -93,6 +134,7 @@
     </footer>
     
     <script src="js/hamburger.js"></script>
+    <script src="js/donations.js"></script>
     
   </body>
 </html>
