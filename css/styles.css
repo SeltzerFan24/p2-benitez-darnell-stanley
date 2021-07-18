@@ -483,13 +483,178 @@ footer p {
   h1 {
     max-width: 1000px;
   }
+  /************************** STYLES FOR OUR-STORY.HTML **************************/
+
+  /* Index Desktop Styles */
+
+  .home_hero_image h1 {
+    font-size: 3.5em;
+  }
+
+  .home_hero_image {
+    height: 850px;
+  }
+
+  .global_container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .global_leader h2, .global_leader p {
+    text-align: left;
+  }
+  .global_leader p {
+    font-size: 1.8em;
+  }
+
+  .global_leader h2 {
+    padding: 60px 5% 15px;
+  }
+
+  .global_leader img {
+    margin: 50px 5% 20px 0;
+    width: 20%;
+    height: 20%;
+  }
+
+  .home_article h3 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+
+  .update_container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 40px;
+    justify-content: center;
+  }
+  .update_one {
+    text-align: center;
+  }
+
+  .update_container img {
+    margin: 0 50px;
+  }
+
+  .update_one_h4 {
+    padding: 35px 0 20px !important;
+  }
+
+  .home_article h4 {
+    padding: 0 0 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home_hero_image h1 {
+    font-size: 4em;
+  }
+
+  .home_hero_image p {
+    font-size: 1.5em;
+  }
+
+  .global_leader h2 {
+    padding: 60px 10% 15px;
+    font-size: 2.7em;
+}
+  .global_leader p {
+    padding: 0 10% 50px;
+  }
+
+  .global_leader img {
+    margin: 50px 10% 20px 0;
+    max-width: 240px;
+  }
+
+  .coast_watch {
+    font-size: 2.5em;
+  }
+
+  .webcam_flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .webcam_one_container {
+    margin: 20px 100px 0;
+  }
+
+  .webcam_two_container {
+    margin: 20px 100px 0;
+  }
+
+  .api_section {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .global_container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .home_article {
+    padding-bottom: 30px;
+  }
+  .home_article h4 {
+    font-size: 2em;
+  }
+
+  .home_article p {
+    margin: 0;
+    width: 550px;
+    font-size: 1.5em;
+  }
+
+  #apiOne iframe {
+      transform: scale(2, 2);
+  }
+
+  #apiTwo iframe {
+    transform: scale(2, 2);
+  }
+
+  .coast_watch {
+    margin-bottom: 70px;
+  }
+
+  .webcam_one_container {
+    margin: 20px 180px 0;
+  }
+
+  .webcam_two_container {
+    margin: 20px 180px 0;
+  }
+
+  .address {
+    margin: 90px 0 100px;
+  }
 
 }
 
+@media (min-width: 1700px) {
+  
+  .home_hero_image p {
+    font-size: 1.7em;
+    max-width: 1178px;
+  }
+  
+  .global_container {
+    max-width: 1241px;
+  }
 
-/************************** STYLES FOR OUR-STORY.HTML **************************/
+  .global_leader h2 {
+    padding: 60px 87px 15px;
+  }
 
-
+  .global_leader p {
+    padding: 0 87px 50px;
+  }
+}
 /************************** STYLES FOR MEMBERSHIP HTML **************************/
 .member-hero {
   background: url('../img/membership.jpg') center no-repeat;
