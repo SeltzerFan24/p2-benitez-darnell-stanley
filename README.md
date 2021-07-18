@@ -9,3 +9,13 @@ I had the most trouble with getting the API operational. It wasn't too difficult
 
 Webcam API documentation:
 https://api.windy.com/webcams/docs
+
+
+Jenny's Notes:
+I worked on membership.html as well as the pop-up window and hamburger menu.
+
+I had issues with the hamburger menu. I was struggling towards the end when I would click on the links. The hamburger menu would disappear and the links would remain exposed. Basically what was happening was the desktop nav was replacing the hamburger menu when I clicked on it. I used Dev tools to see what was happening.
+It was a super simple fix, I just had to flip the desktop nav and hamburger menu placements. 
+
+hamburger menu:
+https://www.youtube.com/watch?v=OFKBep95lb4
