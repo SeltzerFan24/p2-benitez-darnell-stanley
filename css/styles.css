@@ -700,3 +700,152 @@ a#cta-bttn {
 
 
 /************************** STYLES FOR MOBILE NAV END **********************/
+
+
+/************************** STYLES FOR DONATIONS POP-UP START **********************/
+.donations-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color:rgba(0,0,0,0.6);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.donations {
+  font-family: 'Raleway', sans-serif;
+  color: #1d3557;
+  font-size: .9em;
+  border-radius: 15px;
+}
+
+.donations-popup.show {
+  visibility:visible;
+	opacity: 1;
+}
+
+.donations-popup .donations {
+  background-color:#f1faee;
+	position: absolute;
+  width: 50%;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	display: flex;
+  flex-direction: column;
+	opacity: 0;
+	margin-left: 50px;
+	transition: all 1s ease;
+}
+
+.donations-popup.show .donations{
+	opacity: 1;
+	margin-left: 0;
+}
+
+.close-donations {
+  padding-right: 10px;
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.donations-header h2, .donations-footer{
+  text-align: center;
+}
+
+.donations-header h2 {
+  font-family: 'Sarpanch', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 20px 20px 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  padding: 0 10px;
+  width: 75%;
+}
+
+.form-content input {
+  height: 20px;
+}
+
+.form-content label {
+  padding-bottom: 5px;
+}
+
+.form-content input:focus {
+  outline: none; 
+}
+
+#donations-content h3 {
+  text-align: center;
+  font-family: 'Sarpanch', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.submit-button {
+  text-align: center;
+  padding: 10px 0 ;
+}
+.submit-button button{
+  padding: 7px 10px;
+  text-align: center;
+  background-color: #1d3557;
+  color: #f1faee;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Sarpanch', sans-serif;
+  text-transform: uppercase;
+  font-size: .7em;
+}
+
+.submit-button button:hover {
+  background-color: #348EB8;
+  transition: .5s;
+}
+
+.donations-footer {
+  font-size: .5em;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 985px) {
+  .donations-header h2 {
+    font-size: 2em;
+  }
+
+  #donations-content h3 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+  }
+  
+  .donations {
+    font-size: 1.3em;
+  }
+
+  .form-content input {
+    height: 30px;
+  }
+
+  .submit-button button{
+    font-size: .9em;
+  }
+}
+/************************** STYLES FOR DONATIONS POP-UP END **********************/
